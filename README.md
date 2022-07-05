@@ -1,46 +1,74 @@
-# Getting Started with Create React App and Redux
+![](https://img.shields.io/badge/Microverse-blueviolet) ![](https://img.shields.io/badge/MENGSTU-FENTAW-success)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Hello React Front End
 
-## Available Scripts
+This React app is to demonstrate the implementation of a connection between a Ruby on Rails backend and React front-end. This demo app is made with react, react-router, redux-toolkit, and connected to the backend with the rails API endpoints.
 
-In the project directory, you can run:
+## Built with
 
-### `yarn start`
+    - Major languages: React.js, CSS, redux-toolkit
+    - Technologies used: Github, Linters, Webpack, Gitflow
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    - npm ( Node Package Manager ) or yarn package manager
+    - Git and Github Account
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `yarn build`
+- Open terminal
+- Change the directory then run the following:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - Run `git clone git@github.com:mengiefen/hello-react-front-end.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - cd repo-name/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Setup
 
-### `yarn eject`
+- `npm install` or `yarn install` on the root directory of your project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `PORT=3001 npm start`or `PORT=3001 yarn start` - runs the app in the development mode.
+- Open http://localhost:3001 to view it in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Linter Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- To install local copy **Stylelint**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
 
-## Learn More
+- To install local copy of **ESLint**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  `npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Run Linters
+
+- **Stylelint** linter
+  - `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
+- **ESLint** linter
+
+  - `npx eslint .` on the root of your directory of your project.
+
+## API endpoints
+
+- `/api/v1/greeting` - fetches random greeting
+- `/api/v1/messages` - fetches all greeting messages
+
+## Authors
+
+👤 **Mengstu Fentaw**
+
+- Github: [@mengiefen](https://github.com/mengiefen)
+- Twitter: [@MengistuFentaw](https://twitter.com/MengistuFentaw)
+- Linkedin: [@mengefen](https://www.linkedin.com/in/mengefen/)
+
+## Contributers
+
+## Acknowledgments
+
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
