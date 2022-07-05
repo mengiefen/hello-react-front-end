@@ -2,7 +2,7 @@
 
 # Hello React Front End
 
-This react app is to demonstrate the implementation of connection between between a Ruby on Rails back-end and React front-end. This demo app is made with react, react-router, redux-toolkit and connected to the backend with the rails API endpoints.
+This React app is to demonstrate the implementation of a connection between a Ruby on Rails backend and React front-end. This demo app is made with react, react-router, redux-toolkit, and connected to the backend with the rails API endpoints.
 
 ## Built with
 
